@@ -51,6 +51,10 @@ body {
 	font-family: Arial, Helvetica, sans-serif;
 }
 
+a:link {
+	text-decoration: none;
+}
+
 /* Header Styles */
 
 .header { 
@@ -65,11 +69,13 @@ body {
 nav {
 	display: flex;
 	justify-content: space-between;
-	border: 1px solid red;
 	align-items: center;
 	padding-bottom: 10%;
 }
 
+nav a {
+	color: black;
+}
 
 .navItems {
 	display: flex;
@@ -86,29 +92,67 @@ nav {
 }
 
 .heroText {
-	margin: 10px 0px;
+	margin: 20px 0px;
+	line-height: 20px;
 }
 
 .heroImg {
 	width: 300px;
 }
 
+.signupBtn a {
+	color: black;
+}
+
+.signupBtn {
+	background-color: #e2eff1;
+	border: 2px solid #e2eff1;
+	border-radius: 5px;
+	padding: 5px;
+}
+
 /* Showcase Styles */
+
+.showcase {
+	height: 300px;
+}
+
+.showcase a {
+	color: black;
+}
 
 .subTitle {
 	text-align: center;
 	padding: 10px;
+	margin-bottom: 30px;
+	margin-top: 10px;
 	font-size: 20px;
+}
+
+.cardContainer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 30px;
 }
 
 .cardbox {
 	display: flex;
-	width: 100px;
-	border: 1px solid red;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 150px;
 }
 
 .cardImg {
-	width: 100px;
+	width: 150px;
+	height: 150px;
+	border-radius: 10px;
+}
+
+.cardText {
+	text-align: center;
+	margin-top: 10px;
 }
 
 
@@ -117,11 +161,50 @@ nav {
 .quoteContainer {
 	background-color: #e2eff1;
 	height: 200px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.quoteText {
+	font-style: italic;
+	font-size: 30px;
+	width: 70%;
+	text-align: center;
+	margin: auto;
 }
 
 
 /* CTA Styles */
 
+.ctaContainer {
+	width: 50%;
+	height: 120px;
+	background: #b6d5e1;
+	display: flex;
+	margin: 40px auto;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+	font-size: 20px;
+}
+
+.ctaLeft {
+	width: 60%;
+}
+
+.ctaRight {
+	width: 20%;
+}
+
+.ctaTitle {
+	font-size: x-large;
+	margin-bottom: 10px;
+}
+
+.ctaText {
+	line-height: 20px;
+}
 
 
 /* Footer Styles */
@@ -129,7 +212,7 @@ nav {
 .footer {
 	text-align: center;
 	height: 50px;
-	background-color: #b6d5e1;
+	background-color: #e2eff1;
 
 }
 
