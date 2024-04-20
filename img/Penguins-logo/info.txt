@@ -1,0 +1,14 @@
+
+Hope you enjoy your new logo, here are the people that
+made your beautiful logo happen :)
+font name: EnigmaB_2
+font link: https://www.fontsquirrel.com/fonts/Enigmatic
+font author: Objets Dart
+font author site: http://www.objetsdart.ca
+
+
+icon designer: Catherine Please
+icon designer link: /CatherinePlease
+        
+{"bg-gradient-0":"#182471","bg-gradient-1":"#2664C8","icon":"#fff","font":"#fff","slogan":"#1423ff"}
+      

@@ -47,3 +47,92 @@ table {
 	border-spacing: 0;
 }
 
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Header Styles */
+
+.header { 
+	padding: 2% 25%;
+	background-color: #b6d5e1;
+}
+
+.logo {
+	width: 100px;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	border: 1px solid red;
+	align-items: center;
+	padding-bottom: 10%;
+}
+
+
+.navItems {
+	display: flex;
+	gap: 25px;
+}
+
+.title {
+	font-size: xx-large;
+}
+
+.hero {
+	display: flex;
+	gap: 10px;
+}
+
+.heroText {
+	margin: 10px 0px;
+}
+
+.heroImg {
+	width: 300px;
+}
+
+/* Showcase Styles */
+
+.subTitle {
+	text-align: center;
+	padding: 10px;
+	font-size: 20px;
+}
+
+.cardbox {
+	display: flex;
+	width: 100px;
+	border: 1px solid red;
+}
+
+.cardImg {
+	width: 100px;
+}
+
+
+/* Quote Styles */
+
+.quoteContainer {
+	background-color: #e2eff1;
+	height: 200px;
+}
+
+
+/* CTA Styles */
+
+
+
+/* Footer Styles */
+
+.footer {
+	text-align: center;
+	height: 50px;
+	background-color: #b6d5e1;
+
+}
+
+.footerName {
+	line-height: 50px;
+}
